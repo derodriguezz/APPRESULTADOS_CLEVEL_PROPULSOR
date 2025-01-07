@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt  # Agrega esta línea al inicio del archivo
 @st.cache_data
 def cargar_datos():
     # Cargar archivo Excel
-    file_path = r"D:\DANI LAPTOP\Documentos\Setting\OneDrive - Ucompensar\09 Proyectos especiales\Evaluación CLevel\App resultados\concatenated_results.xlsx"
+    file_path = "./concatenated_results.xlsx"
     df = pd.read_excel(file_path)
 
     # Reordenar las columnas del DataFrame
